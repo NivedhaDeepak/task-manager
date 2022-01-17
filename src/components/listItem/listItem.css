@@ -1,0 +1,47 @@
+.list-items {
+    list-style-type: none;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    width: 80%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin: 10px;
+}
+
+.list-items label {
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.list-items button {
+    background: blueviolet;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.18rem 0.7rem;
+    margin-left: 0.7rem;
+    padding-top: 0.3rem;
+    text-transform: uppercase;
+}
+
+.active {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+ul li input{
+  margin-right: 5px; 
+  transform: translateY(1px);
+}
+
+@media screen and (max-width: 450px) {
+    .list-items {
+        width: 90%;
+        margin-left: 0;
+    }
+}

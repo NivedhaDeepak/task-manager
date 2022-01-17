@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 33vw;
+    font-weight: bold;
+    justify-content: center;
+    margin-left: 14%;
+    letter-spacing: 0.3px;
+    align-items: center;
+}
+
+p {
+    padding: 0rem;
+    margin: 0 5.2rem;
+}
+
+.footer-container button {
+    background: crimson;
+    border-radius: 2px;
+    padding-top: 0.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.18rem 0.7rem;
+    margin-left: 0.7rem;
+    padding-top: 0.3rem;
+}
+
+@media screen and (max-width: 450px) {
+    .footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+}
+

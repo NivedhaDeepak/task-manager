@@ -1,0 +1,15 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    margin-left: 8%;
+}
+
+@media screen and (max-width: 450px) {
+    .list-container {
+        width: 85vw;
+        border: 1px solid khaki;
+        margin-left: 0;
+    }
+  }
